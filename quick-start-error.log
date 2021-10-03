@@ -1,0 +1,47 @@
+{"level":"\u001b[32minfo\u001b[39m","message":"NODE_ENV: production","service":"jeeves-app-api","timestamp":"2021-10-03 10:12:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3000.","service":"jeeves-app-api","timestamp":"2021-10-03 10:12:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":"NODE_ENV: production","service":"jeeves-app-api","timestamp":"2021-10-03 10:13:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3000.","service":"jeeves-app-api","timestamp":"2021-10-03 10:13:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":"NODE_ENV: production","service":"jeeves-app-api","timestamp":"2021-10-03 10:14:36"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3000.","service":"jeeves-app-api","timestamp":"2021-10-03 10:14:36"}
+{"level":"\u001b[32minfo\u001b[39m","message":"NODE_ENV: production","service":"jeeves-app-api","timestamp":"2021-10-03 10:14:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3000.","service":"jeeves-app-api","timestamp":"2021-10-03 10:14:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":"NODE_ENV: production","service":"jeeves-app-api","timestamp":"2021-10-03 10:14:55"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3000.","service":"jeeves-app-api","timestamp":"2021-10-03 10:14:55"}
+{"level":"\u001b[32minfo\u001b[39m","message":"NODE_ENV: production","service":"jeeves-app-api","timestamp":"2021-10-03 10:15:03"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3000.","service":"jeeves-app-api","timestamp":"2021-10-03 10:15:03"}
+{"code":"MODULE_NOT_FOUND","level":"\u001b[31merror\u001b[39m","message":"Error:  Cannot find module 'ejs'\nRequire stack:\n- /home/vamsi/Desktop/jeeves-assignment/node_modules/express/lib/view.js\n- /home/vamsi/Desktop/jeeves-assignment/node_modules/express/lib/application.js\n- /home/vamsi/Desktop/jeeves-assignment/node_modules/express/lib/express.js\n- /home/vamsi/Desktop/jeeves-assignment/node_modules/express/index.js\n- /home/vamsi/Desktop/jeeves-assignment/index.js","requireStack":["/home/vamsi/Desktop/jeeves-assignment/node_modules/express/lib/view.js","/home/vamsi/Desktop/jeeves-assignment/node_modules/express/lib/application.js","/home/vamsi/Desktop/jeeves-assignment/node_modules/express/lib/express.js","/home/vamsi/Desktop/jeeves-assignment/node_modules/express/index.js","/home/vamsi/Desktop/jeeves-assignment/index.js"],"service":"jeeves-app-api","stack":"/home/vamsi/Desktop/jeeves-assignment/node_modules/express/lib/view.js:1\nError: Cannot find module 'ejs'\nRequire stack:\n- /home/vamsi/Desktop/jeeves-assignment/node_modules/express/lib/view.js\n- /home/vamsi/Desktop/jeeves-assignment/node_modules/express/lib/application.js\n- /home/vamsi/Desktop/jeeves-assignment/node_modules/express/lib/express.js\n- /home/vamsi/Desktop/jeeves-assignment/node_modules/express/index.js\n- /home/vamsi/Desktop/jeeves-assignment/index.js\n    at new View (/home/vamsi/Desktop/jeeves-assignment/node_modules/express/lib/view.js:81:14)\n    at Function.render (/home/vamsi/Desktop/jeeves-assignment/node_modules/express/lib/application.js:570:12)\n    at ServerResponse.render (/home/vamsi/Desktop/jeeves-assignment/node_modules/express/lib/response.js:1012:7)\n    at /home/vamsi/Desktop/jeeves-assignment/index.js:65:9","timestamp":"2021-10-03 10:17:23"}
+{"level":"\u001b[32minfo\u001b[39m","message":"NODE_ENV: production","service":"jeeves-app-api","timestamp":"2021-10-03 10:17:54"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3000.","service":"jeeves-app-api","timestamp":"2021-10-03 10:17:54"}
+{"level":"\u001b[32minfo\u001b[39m","message":"NODE_ENV: production","service":"jeeves-app-api","timestamp":"2021-10-03 10:20:02"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3000.","service":"jeeves-app-api","timestamp":"2021-10-03 10:20:02"}
+{"level":"\u001b[32minfo\u001b[39m","message":"NODE_ENV: production","service":"jeeves-app-api","timestamp":"2021-10-03 10:30:42"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3000.","service":"jeeves-app-api","timestamp":"2021-10-03 10:30:42"}
+{"level":"\u001b[32minfo\u001b[39m","message":"NODE_ENV: production","service":"jeeves-app-api","timestamp":"2021-10-03 10:34:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3000.","service":"jeeves-app-api","timestamp":"2021-10-03 10:34:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"NODE_ENV: production","service":"jeeves-app-api","timestamp":"2021-10-03 10:37:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3000.","service":"jeeves-app-api","timestamp":"2021-10-03 10:37:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"NODE_ENV: production","service":"jeeves-app-api","timestamp":"2021-10-03 10:39:02"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3000.","service":"jeeves-app-api","timestamp":"2021-10-03 10:39:02"}
+{"level":"\u001b[32minfo\u001b[39m","message":"NODE_ENV: production","service":"jeeves-app-api","timestamp":"2021-10-03 11:58:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3000.","service":"jeeves-app-api","timestamp":"2021-10-03 11:58:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":"NODE_ENV: production","service":"jeeves-app-api","timestamp":"2021-10-03 12:07:16"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3000.","service":"jeeves-app-api","timestamp":"2021-10-03 12:07:16"}
+{"level":"\u001b[32minfo\u001b[39m","message":"NODE_ENV: production","service":"jeeves-app-api","timestamp":"2021-10-03 12:12:26"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3000.","service":"jeeves-app-api","timestamp":"2021-10-03 12:12:26"}
+{"level":"\u001b[32minfo\u001b[39m","message":"NODE_ENV: production","service":"jeeves-app-api","timestamp":"2021-10-03 12:14:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3000.","service":"jeeves-app-api","timestamp":"2021-10-03 12:14:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"NODE_ENV: production","service":"jeeves-app-api","timestamp":"2021-10-03 12:16:19"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3000.","service":"jeeves-app-api","timestamp":"2021-10-03 12:16:19"}
+{"level":"\u001b[32minfo\u001b[39m","message":"NODE_ENV: production","service":"jeeves-app-api","timestamp":"2021-10-03 12:16:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3000.","service":"jeeves-app-api","timestamp":"2021-10-03 12:16:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"NODE_ENV: production","service":"jeeves-app-api","timestamp":"2021-10-03 12:17:40"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3000.","service":"jeeves-app-api","timestamp":"2021-10-03 12:17:40"}
+{"level":"\u001b[32minfo\u001b[39m","message":"NODE_ENV: production","service":"jeeves-app-api","timestamp":"2021-10-03 12:17:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3000.","service":"jeeves-app-api","timestamp":"2021-10-03 12:17:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"NODE_ENV: production","service":"jeeves-app-api","timestamp":"2021-10-03 12:18:14"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3000.","service":"jeeves-app-api","timestamp":"2021-10-03 12:18:14"}
+{"level":"\u001b[32minfo\u001b[39m","message":"NODE_ENV: production","service":"jeeves-app-api","timestamp":"2021-10-03 12:19:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3000.","service":"jeeves-app-api","timestamp":"2021-10-03 12:19:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"NODE_ENV: production","service":"jeeves-app-api","timestamp":"2021-10-03 20:03:43"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3000.","service":"jeeves-app-api","timestamp":"2021-10-03 20:03:43"}
