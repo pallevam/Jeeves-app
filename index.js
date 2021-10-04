@@ -8,6 +8,7 @@ import path from 'path'
 const __dirname = path.resolve();
 import cookieParser from 'cookie-parser'
 import mongoose from 'mongoose'
+import { pagination } from './src/helpers/pagination.js'
 import { logger } from './src/utils/logger.js'
 import morgan from 'morgan'
 import listEndpoints from 'express-list-endpoints'
@@ -16,6 +17,8 @@ import cors from 'cors'
 import { authenticate } from './src/security/auth.js'
 import userLoginSingupRoute from './src/routes/login-signup/user'
 import userSecureRoute from './src/routes/secure/user'
+import propertySecureRoute from './src/routes/secure/property'
+
 
 // mongoose.set('useCreateIndex', true)
 const app = express()
@@ -59,7 +62,7 @@ app.use(express.urlencoded({ extended: false }))
 app.use(cookieParser())
 app.use(express.static(path.join(__dirname, 'public')))
 app.use(express.json({ limit: '10kb' }))
-// app.use(pagination)
+app.use(pagination)
 
 /* GET Home page */
 app.get('/', (req, res) => {
@@ -80,6 +83,7 @@ userLoginSingupRoute(app)
 /* routes which require authentication */
 app.use(authenticate)
 userSecureRoute(app)
+propertySecureRoute(app)
 
 
 

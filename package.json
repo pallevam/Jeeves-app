@@ -7,7 +7,7 @@
   "scripts": {
     "start": "export NODE_ENV=production&&nodemon -r esm ./index.js",
     "dev": "export NODE_ENV=development&&nodemon -r esm index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "export NODE_ENV=development&&mocha -r esm --exit --timeout 20000 --recursive test/"
   },
   "keywords": [],
   "author": "",
@@ -41,6 +41,12 @@
     "winston": "^3.3.3"
   },
   "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-mocha-no-only": "^1.1.1",
+    "faker": "^5.5.3",
+    "mocha": "^9.1.2",
     "nodemon": "^2.0.13"
   },
   "directories": {
