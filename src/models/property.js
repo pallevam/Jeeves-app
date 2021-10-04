@@ -9,7 +9,8 @@ const PropertySchema = mongoose.Schema({
     locality: {type: String, required: true},
     address: {type: String, required: true},
     carpetArea: {type: String, required: true},
-    propertyImages: {data: Buffer, contentType: String, }
+    propertyImages: {type: String, required: true},
+    uploadedAt: {type: Date, default: Date.now}
 })
 
 module.exports = PropertySchema
