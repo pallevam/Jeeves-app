@@ -2,7 +2,7 @@ import _ from 'lodash'
 import { logger } from '../utils/logger'
 const { Property } = require('../models/model')
 import { handleSaveRecordError } from '../utils/generic_utils'
-import { Formidable } from 'formidable'
+import Formidable from 'formidable'
 import cloudinary from 'cloudinary'
 import { response } from 'express'
 /**
@@ -37,7 +37,7 @@ export const createProperty = async (req, res) => {
                 })
             }
         )
-        const propertySaved = await newPropertyListing.save()
+        const propertySaved = newPropertyListing.save()
         return response.status(200).json(propertySaved)
     })
 }
