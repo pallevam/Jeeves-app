@@ -14,7 +14,6 @@ import morgan from 'morgan'
 import listEndpoints from 'express-list-endpoints'
 import helmet from 'helmet';
 import cors from 'cors'
-import { authenticate } from './src/security/auth.js'
 import userLoginSingupRoute from './src/routes/login-signup/user'
 import userSecureRoute from './src/routes/secure/user'
 import propertySecureRoute from './src/routes/secure/property'
@@ -65,6 +64,9 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.use(express.json({ limit: '10kb' }))
 app.use(pagination)
 
+/* Initializing database connection */
+global.clientConnection = initClientDbConnection()
+
 /* GET Home page */
 app.get('/', (req, res) => {
     res.render('index.ejs')
@@ -75,13 +77,13 @@ app.get(process.env.BASE_PATH + '/exposed', (req, res) => {
     res.status(200).send(listEndpoints(app))
 })
 
-/* Initializing database connection */
-global.clientConnection = initClientDbConnection()
+
 
 // user login-signup route
 userLoginSingupRoute(app)
 
 /* routes which require authentication */
+import { authenticate } from './src/security/auth.js'
 app.use(authenticate)
 userSecureRoute(app)
 propertySecureRoute(app)
